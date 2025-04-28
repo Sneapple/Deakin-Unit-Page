@@ -1,31 +1,63 @@
-h1 {
-  font-size: 40px;
-  font-family: Arial;
+/* Basic styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
-h2 {
-  font-size: 25px;
-  font-family: Arial;
-}
-h3 {
-  font-family: Arial;
-}
-p {
-  font-size: 14px;
-  font-family: Arial;
-}
-div {
+ 
+header {
   background-color: darkcyan;
-  text-align: right;
+  color: white;
+  text-align: center;
+  padding: 20px;
 }
-
-/* New table styling */
-table {
-  width: 100%;
-  border-collapse: collapse;
-  font-family: Arial;
+ 
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
 }
-
-td {
-  border: 1px solid #ddd;
+ 
+.search-section {
+  text-align: center;
+  padding: 20px;
+}
+ 
+.search-section input {
+  width: 300px;
   padding: 8px;
+}
+ 
+.search-section button {
+  padding: 8px 16px;
+}
+ 
+.news-section, .student-portal, .staff-portal, .programs {
+  padding: 20px;
+  border-bottom: 1px solid #ccc;
+}
+ 
+.news-section ul {
+  list-style-type: square;
+}
+ 
+button {
+  background-color: darkcyan;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+ 
+button:hover {
+  background-color: teal;
+}
+ 
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
 }
